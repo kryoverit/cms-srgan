@@ -216,9 +216,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 **Author:** Akshat Jalan  
-**Email:** akshatjalan204@gmail.com  
-**LinkedIn:** linkedin.com/in/akshatjalan04  
-**GitHub:** [Your GitHub Username]  
+**Email:** [akshatjalan204@gmail.com](mailto:akshatjalan204@gmail.com)
+**LinkedIn:** [linkedin.com/in/akshatjalan04](https://linkedin.com/in/akshatjalan04)
+**GitHub:** [@uneconomicsailor][https://github.com/uneconomicsailor)  
 
 **Project:** GSoC 2026 - Super Resolution at the CMS Detector  
 **Organization:** ML4Sci  
@@ -234,6 +234,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/yourusername/srgan-cms}}
+  howpublished = {\url{https://github.com/uneconomicsailoor/srgan-cms}}
 }
 ```
