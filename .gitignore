@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (large)
+*.parquet
+*.h5
+*.hdf5
+
+# Model checkpoints (except the final one we want to include)
+*.pth
+!srganv2_final.pth
+
+# Results
+result_*.png
+runs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TensorBoard
+runs/
+
+# Temporary files
+*.tmp
+*.temp
