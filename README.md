@@ -31,9 +31,9 @@ This repository contains a Super-Resolution GAN (SRGAN) implementation for enhan
 
 ```
 srgan_cms_github/
-├── train_srganv2.py      # Training script
-├── inference_srganv2.py  # Inference and evaluation
-├── srganv2_final.pth     # Trained model checkpoint
+├── srgan.py              # Training script
+├── inference.py          # Inference and evaluation
+├── srgan.pth             # Trained model checkpoint
 ├── README.md             # This file
 └── requirements.txt      # Python dependencies
 ```
@@ -76,10 +76,10 @@ tqdm>=4.64.0
 ### Training
 ```python
 # Basic training
-python train_srganv2.py
+python srgan.py
 
 # Training with custom parameters
-python train_srganv2.py \
+python srgan.py \
     --data_dir /path/to/parquet/files \
     --max_samples 10000 \
     --batch_size 8 \
@@ -90,13 +90,13 @@ python train_srganv2.py \
 ### Inference
 ```python
 # Generate super-resolved images
-python inference_srganv2.py \
-    --model srganv2_final.pth \
+python inference.py \
+    --model srgan.pth \
     --num_samples 10 \
     --output_dir results/
 
 # Evaluate model performance
-python inference_srganv2.py --evaluate
+python inference.py --evaluate
 ```
 
 ### TensorBoard Logging
