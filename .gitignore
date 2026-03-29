@@ -41,7 +41,7 @@ ENV/
 
 # Model checkpoints (except the final one we want to include)
 *.pth
-!srganv2_final.pth
+!srgan.pth
 
 # Results
 result_*.png
