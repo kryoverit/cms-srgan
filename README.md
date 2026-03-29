@@ -27,6 +27,17 @@ This repository contains a Super-Resolution GAN (SRGAN) implementation for enhan
 - Green: 26.18 dB (acceptable)  
 - Blue: 40.62 dB (excellent)
 
+## Sample Results
+
+![Sample 1](images/sample_1.png)
+*Sample 1: Quark jet reconstruction - PSNR: 22.46 dB*
+
+![Sample 2](images/sample_2.png)
+*Sample 2: Gluon jet reconstruction - PSNR: 25.19 dB*
+
+![Sample 3](images/sample_3.png)
+*Sample 3: High-energy deposit pattern - PSNR: 23.03 dB*
+
 ## Repository Structure
 
 ```
@@ -35,7 +46,11 @@ srgan_cms_github/
 ├── inference.py          # Inference and evaluation
 ├── srgan.pth             # Trained model checkpoint
 ├── README.md             # This file
-└── requirements.txt      # Python dependencies
+├── requirements.txt      # Python dependencies
+└── images/               # Sample results
+    ├── sample_1.png
+    ├── sample_2.png
+    └── sample_3.png
 ```
 
 ## Installation
